@@ -48,7 +48,6 @@ function Valores(){
     PalabraAleatoria = ListaOcuada[parseInt(NumeroAleatorio)];
     PalabraAleatoria_L = PalabraAleatoria.length;
     PalabraAleatoria_G = PalabraAleatoria;
-    console.log(PalabraAleatoria);
     PalabraAleatoria_L = PalabraAleatoria.length;
     PalabraAcumulada = "";
     LetrasErroneas = [];
@@ -95,7 +94,6 @@ function Valores(){
     document.getElementById("Puntos").innerHTML = "Puntos: " + PuntosV;
 }
 function Letra(LetraABC){
-    console.log(LetraABC);
     Esta = 0;
     Veces = 0;
     Repetida = 0;
@@ -106,7 +104,6 @@ function Letra(LetraABC){
     for (let ice = 0; ice < LetrasUsadasTotales_L; ice++) {
         LetrasUsadasTotales_C = LetrasUsadasTotales[ice];
         if (LetrasUsadasTotales_C == LetraABC || NoPasar == 1) {
-            console.log("Repetida");
             Repetida = 1;
         }
         else if (ice == LetrasUsadasTotales_L - 1 && Repetida == 0) {
@@ -164,7 +161,6 @@ function Letra(LetraABC){
                                 document.getElementById("StickManAhorcado").src = "Y.png";
                                 NoPasar = 1;
                                 PuntosV = PuntosV + PuntosV_Dar;
-                                console.log(PuntosV);
                                 document.getElementById("Puntos").innerHTML = "Puntos: " + PuntosV;
                                 localStorage.setItem("PuntosV", PuntosV);
                                 document.getElementById("Continuar").innerHTML = "<button onclick='Cont()' class='Continuar'>Continuar</button>";
@@ -185,14 +181,12 @@ function Letra(LetraABC){
                             document.getElementById(LetraABC).style.backgroundColor = "rgb(165, 38, 38, 0.641)";
                             if (StickMan < ImagenesOcupadas.length) {
                                 StickMan = StickMan + 1;
-                                console.log(StickMan + "STICKMAN");
                                 document.getElementById("StickManAhorcado").src = ImagenesOcupadas[StickMan];
                                 if (StickMan == ImagenesOcupadas.length) {
                                     if (StickMan == 11) {
                                         document.getElementById("StickManAhorcado").src = "XX2.png"
                                         NoPasar = 1;
                                         PuntosV = PuntosV - PuntosV_Quitar;
-                                        console.log(PuntosV);
                                         document.getElementById("Puntos").innerHTML = "Puntos: " + PuntosV;
                                         localStorage.setItem("PuntosV", PuntosV);
                                         document.getElementById("Continuar").innerHTML = "<button onclick='Cont()' class='Continuar'>Continuar</button>";
@@ -202,7 +196,6 @@ function Letra(LetraABC){
                                         document.getElementById("StickManAhorcado").src = "XX.png"; 
                                         NoPasar = 1;          
                                         PuntosV = PuntosV - PuntosV_Quitar;
-                                        console.log(PuntosV);
                                         document.getElementById("Puntos").innerHTML = "Puntos: " + PuntosV;
                                         localStorage.setItem("PuntosV", PuntosV);
                                         document.getElementById("Continuar").innerHTML = "<button onclick='Cont()' class='Continuar'>Continuar</button>";
