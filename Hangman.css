@@ -1,0 +1,114 @@
+body{
+    text-align: center;
+}
+.HEJEx{
+    font-size: 30px;
+    color: rgb(14, 221, 14);
+    font-family: cursive;
+    border-width: 5px;
+    border-style: double;
+    border-color: yellow;
+    width: 570px;
+    margin-left: 280px;
+    height: 128px;
+}
+.HEJEt{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: blue;
+    font-family: cursive;
+}
+.HEJEtp{
+    font-size: 30px;
+    color: red;
+    font-family: cursive;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.HEJEtp2{
+    font-size: 30px;
+    color: rgb(0, 255, 191);
+    font-family: cursive;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.Arriba{
+    margin-bottom: 20px;
+}
+.Botones{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    border-width: 2px;
+    background-color: white;
+}
+.Stickman{
+    width: 225px;
+    height: 200px;
+    margin: 0px;
+}
+.FR{
+    float: right;
+}
+.EF{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    border-width: 8px;
+    background-color: rgb(0, 238, 255);
+}
+.F{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    border-width: 8px;
+    background-color: rgb(0, 255, 0);
+}
+.N{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    border-width: 8px;
+    background-color: yellow;
+}
+.D{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    border-width: 8px;
+    background-color: red;
+}
+.ED{
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    border-width: 8px;
+    background-color: rgb(174, 0, 255);
+}
+.Continuar{
+    float: right;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    border-width: 1px;
+    background-color: rgb(0, 255, 98);
+}
+.Continuar1{
+    float: right;
+    text-align: unset;
+}
